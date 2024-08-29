@@ -31,9 +31,4 @@ const clear = () => {
 };
 
 // Export functions as part of the module
-module.exports = {
-  setItem,
-  getItem,
-  removeItem,
-  clear,
-};
+export { setItem, getItem, removeItem, clear };
